@@ -2,18 +2,16 @@ from pyrogram import Client, filters
 
 vaishuu=Client(
        "vaishali x music new",
-       api_hash="",
-       api_id="",
-       bot_token="", 
+       api_hash="47cf60c015aa84694b97f3d993d97dd8",
+       api_id="17214501",
+       bot_token="5580562376:AAEGH3FPDnJUJrVK41DII7WHQK-H2Boemdc
+", 
 ) 
 
-@vaishuu.on_message(filters.command("start"))
+@vaishuu.on_message(filter.command("start") & filter.group)
 async def start(bot, message):
-       await message.reply_text("Hello user iam a official pyrogram music bot")
-    
-@vaishuu.on_message(filters.command("help"))
-async def help(bot, message):
-       await message.reply_text("hello user this is my help buttons click help")
-
+    await message.reply_photo(
+        photo="https://te.legra.ph/file/d25be28a8f9043ed08821.jpg",
+        caption="Hello user i am official pyogram bot how can i help you",
 
 vaishuu.run() 
