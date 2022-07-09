@@ -4,8 +4,7 @@ vaishuu=Client(
        "vaishali x music new",
        api_hash="47cf60c015aa84694b97f3d993d97dd8",
        api_id="17214501",
-       bot_token="5580562376:AAEGH3FPDnJUJrVK41DII7WHQK-H2Boemdc
-", 
+       bot_token="5580562376:AAEGH3FPDnJUJrVK41DII7WHQK-H2Boemdc", 
 ) 
 
 @vaishuu.on_message(filter.command("start") & filter.group)
