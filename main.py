@@ -1,4 +1,4 @@
-from pyrogram import Client, filters
+from pyrogram3 import Client, filters
 
 vaishuu=Client(
        "vaishali x music new",
